@@ -1,0 +1,1 @@
+const {ApolloServer,gql}=require('apollo-server');const typeDefs=gql(require('fs').readFileSync('schema.graphql','utf8'));const resolvers={Query:{heatmap:()=>[]}};new ApolloServer({typeDefs,resolvers}).listen();
