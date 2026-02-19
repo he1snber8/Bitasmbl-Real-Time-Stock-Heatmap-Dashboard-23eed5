@@ -1,0 +1,1 @@
+#import <Foundation/Foundation.h> @interface GraphQLClient:NSObject -(void)fetchHeatmapForSector:(NSString*)sector completion:(void(^)(NSArray*,NSError*))completion; @end
