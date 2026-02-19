@@ -1,0 +1,1 @@
+#import "HeatmapViewController.h" @implementation HeatmapViewController - (void)viewDidLoad{[super viewDidLoad];} @end
