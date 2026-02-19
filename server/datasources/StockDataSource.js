@@ -1,0 +1,1 @@
+class StockDataSource{async getHeatmapBySector(sector){return[]} async getAll(){return[]} } module.exports=StockDataSource;
