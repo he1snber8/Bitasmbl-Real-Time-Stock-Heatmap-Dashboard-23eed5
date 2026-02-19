@@ -1,0 +1,1 @@
+module.exports={Query:{heatmap:async(_,{sector},ctx)=>{try{return await ctx.dataSources.stock.getHeatmapBySector(sector)}catch(e){return[]}}}};
