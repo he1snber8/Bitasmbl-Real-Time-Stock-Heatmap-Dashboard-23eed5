@@ -1,0 +1,1 @@
+#import "SignalRManager.h" @implementation SignalRManager -(void)connect{} -(void)subscribeUpdates:(void(^)(NSArray*))handler{} @end
