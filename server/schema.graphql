@@ -1,0 +1,1 @@
+type Stock{symbol:String! name:String sector:String price:Float change:Float} type Query{heatmap(sector:String):[Stock]!} schema{query:Query} 
