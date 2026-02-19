@@ -1,0 +1,1 @@
+#import "AppDelegate.h" @implementation AppDelegate - (BOOL)application:(UIApplication*)app didFinishLaunchingWithOptions:(NSDictionary*)opts{return YES;} @end
