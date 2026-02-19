@@ -1,0 +1,1 @@
+const signalR=require('@microsoft/signalr');class StockHub{} module.exports=StockHub;
