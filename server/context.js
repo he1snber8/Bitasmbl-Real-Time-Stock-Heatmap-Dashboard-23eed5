@@ -1,0 +1,1 @@
+const Stock=require('./datasources/StockDataSource');module.exports=()=>({dataSources:{stock:new Stock()}});
