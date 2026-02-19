@@ -1,0 +1,1 @@
+#import <Foundation/Foundation.h> @interface SignalRManager:NSObject -(void)connect;-(void)subscribeUpdates:(void(^)(NSArray*))handler; @end
