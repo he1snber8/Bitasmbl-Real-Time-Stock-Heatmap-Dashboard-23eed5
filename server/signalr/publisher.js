@@ -1,0 +1,1 @@
+class Publisher{constructor(hub){this.hub=hub} broadcast(update){} }module.exports=Publisher;
